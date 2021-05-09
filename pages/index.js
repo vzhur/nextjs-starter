@@ -6,6 +6,7 @@ import { projects } from '../utils/projectsData';
 const Home = () => (
   <div className="home">
     <h1>What Can I Deploy to Static Apps?</h1>
+    <p>https://docs.microsoft.com/ru-ru/azure/static-web-apps/deploy-nextjs</p>
     <div className="card-grid">
       {projects.map((project) => {
         const Icon = projectIcons[project.id];
